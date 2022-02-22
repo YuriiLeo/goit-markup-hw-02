@@ -1,3 +1,12 @@
 body{
     background-color: blue;
 }
+/* без точек */
+.list{
+    list-style: none;
+}
+/* без подчеркиваний */
+.link{
+    text-decoration: none;
+
+}
