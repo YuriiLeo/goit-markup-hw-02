@@ -8,7 +8,6 @@
     }
     
 body{
-    /* font-family: Raleway, sans-serif; */
     font-family: Roboto, sans-serif;
     background-color: white;
     color: var(--primare-text-color);
@@ -61,6 +60,10 @@ a {
     letter-spacing: 0.02em;
 }
 
+.header-list .header-link.curent {
+    color: var(--accent-color); 
+}
+
 
 /* Интерактивные елементы кнопки*/
 .hero-btn,
@@ -85,6 +88,7 @@ a {
     display: flex;
     text-align: center;
     letter-spacing: 0.06em;
+    font-family: inherit;
 }
 
 .portfolio-btn {
@@ -93,16 +97,15 @@ a {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    font-family: inherit;
 }
 
 /* интерактивные элементы футер */
 .footer-link-map {
     color: var(--primary-white-color);
-    background-color: #000000;
 }
 .footer-link {
     color: rgba(255, 255, 255, 0.6);
-    background-color: #000000;
 }
 
 .footer-link-map:hover,
@@ -174,6 +177,14 @@ letter-spacing: 0.03em;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--background-second);
+}
+.footer-adress {
+    font-style: normal;
 }
 
 /* Портфолио */
