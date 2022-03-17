@@ -22,13 +22,18 @@ a {
 }
 
 /* Интерактивные елементы лого */
-.logo {
+.logo,
+.logo-footer {
     color: var(--title-text-color);
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+}
+
+.logo-footer {
+    color: var(--primary-white-color);
 }
 
 .logo-first {
@@ -97,7 +102,7 @@ a {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    font-family: inherit;
+    font-family: inherit; 
 }
 
 /* интерактивные элементы футер */
